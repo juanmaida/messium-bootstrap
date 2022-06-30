@@ -1,0 +1,42 @@
+/* colores de fondo */
+
+.bg-violet{
+	background-color: rgba(238, 188, 247, 0.8);
+}
+
+.bg-deepink{
+	background-color: #EF62CC;
+}
+
+/*colores para los textos*/
+.text-pink{
+	color: #F864EF;
+}
+
+.text-regular{
+	color: #6B6666;
+	line-height: 1.4em;
+	font-size: 1.1em;
+}
+
+
+/* navbar */
+#botonera{
+	position: sticky;
+	top: 0;
+}
+
+#botonera img{
+	width: 200px;
+}
+
+	#botonera ul li a{
+		color: black;
+	}
+
+@media (max-width: 280px){
+	#botonera img{
+		width: 100px;
+	}
+}
+
